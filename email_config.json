@@ -1,0 +1,13 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "sender_email": "gayatrikandula04@gmail.com",
+  "sender_password": "nkhu oihg dhog uzki",
+  "recipient_emails": [
+    "gayatrikandula04@gmail.com",
+    "security@company.com"
+    
+  ],
+  "enable_alerts": true,
+  "smtp_timeout":10
+}

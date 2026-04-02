@@ -1,0 +1,20 @@
+[
+  {
+    "name": "main_entrance",
+    "points": [[100, 100], [300, 100], [300, 400], [100, 400]],
+    "color": [255, 0, 0],
+    "rules": {
+      "max_dwell_time": 10.0,
+      "restricted_hours": ["22:00", "06:00"]
+    }
+  },
+  {
+    "name": "restricted_zone",
+    "points": [[400, 200], [600, 200], [600, 400], [400, 400]],
+    "color": [0, 0, 255],
+    "rules": {
+      "immediate_alert": true,
+      "loitering_threshold": 5.0
+    }
+  }
+]

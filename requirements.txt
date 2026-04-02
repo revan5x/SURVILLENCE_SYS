@@ -1,0 +1,22 @@
+# Core Computer Vision
+opencv-python==4.8.1.78
+ultralytics==8.0.200
+numpy==1.24.3
+scipy>=1.10.0
+
+# Dashboard & Interface
+streamlit==1.28.2
+plotly==5.18.0
+
+# System & Performance
+psutil==5.9.6
+
+# Data Handling
+pandas==2.0.3
+
+# Email
+secure-smtplib==0.1.1
+
+# Existing requirements...
+sounddevice>=0.4.6
+numpy>=1.21.0

@@ -1,0 +1,439 @@
+2026-03-15 22:08:49.612042: Test alert added to history
+2026-03-15 22:09:15.420261: process_frames started
+2026-03-15 22:09:15.642643: Placeholder exists: True
+2026-03-15 22:09:15.644647: History count: 1
+2026-03-15 22:09:15.648883: Rendering 1 alerts
+2026-03-15 22:09:15.651832:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:15.938858: Placeholder exists: True
+2026-03-15 22:09:15.949448: History count: 1
+2026-03-15 22:09:15.972221: Rendering 1 alerts
+2026-03-15 22:09:15.976469:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:16.293857: Placeholder exists: True
+2026-03-15 22:09:16.298350: History count: 1
+2026-03-15 22:09:16.301681: Rendering 1 alerts
+2026-03-15 22:09:16.306683:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:16.571278: Placeholder exists: True
+2026-03-15 22:09:16.575501: History count: 1
+2026-03-15 22:09:16.578008: Rendering 1 alerts
+2026-03-15 22:09:16.582824:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:16.903042: Placeholder exists: True
+2026-03-15 22:09:16.906036: History count: 1
+2026-03-15 22:09:16.909036: Rendering 1 alerts
+2026-03-15 22:09:16.912202:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:17.168976: Placeholder exists: True
+2026-03-15 22:09:17.172983: History count: 1
+2026-03-15 22:09:17.176975: Rendering 1 alerts
+2026-03-15 22:09:17.181714:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:17.457427: Placeholder exists: True
+2026-03-15 22:09:17.460428: History count: 1
+2026-03-15 22:09:17.467020: Rendering 1 alerts
+2026-03-15 22:09:17.476101:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:17.729981: Placeholder exists: True
+2026-03-15 22:09:17.733149: History count: 1
+2026-03-15 22:09:17.739585: Rendering 1 alerts
+2026-03-15 22:09:17.743018:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:18.025268: Placeholder exists: True
+2026-03-15 22:09:18.028268: History count: 1
+2026-03-15 22:09:18.033268: Rendering 1 alerts
+2026-03-15 22:09:18.054749:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:18.320824: Placeholder exists: True
+2026-03-15 22:09:18.322826: History count: 1
+2026-03-15 22:09:18.326825: Rendering 1 alerts
+2026-03-15 22:09:18.332285:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:18.585837: Placeholder exists: True
+2026-03-15 22:09:18.590100: History count: 1
+2026-03-15 22:09:18.594071: Rendering 1 alerts
+2026-03-15 22:09:18.599908:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:18.901081: Placeholder exists: True
+2026-03-15 22:09:18.904207: History count: 1
+2026-03-15 22:09:18.907221: Rendering 1 alerts
+2026-03-15 22:09:18.910217:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:19.157808: Placeholder exists: True
+2026-03-15 22:09:19.161807: History count: 1
+2026-03-15 22:09:19.164808: Rendering 1 alerts
+2026-03-15 22:09:19.170191:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:19.441620: Placeholder exists: True
+2026-03-15 22:09:19.444628: History count: 1
+2026-03-15 22:09:19.447007: Rendering 1 alerts
+2026-03-15 22:09:19.451989:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:19.682640: Placeholder exists: True
+2026-03-15 22:09:19.685639: History count: 1
+2026-03-15 22:09:19.690723: Rendering 1 alerts
+2026-03-15 22:09:19.703401:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:19.913311: Placeholder exists: True
+2026-03-15 22:09:19.927150: History count: 1
+2026-03-15 22:09:19.937328: Rendering 1 alerts
+2026-03-15 22:09:19.939562:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:20.201465: Placeholder exists: True
+2026-03-15 22:09:20.204467: History count: 1
+2026-03-15 22:09:20.209466: Rendering 1 alerts
+2026-03-15 22:09:20.212469:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:20.462435: Placeholder exists: True
+2026-03-15 22:09:20.467435: History count: 1
+2026-03-15 22:09:20.489433: Rendering 1 alerts
+2026-03-15 22:09:20.491780:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:20.696141: Placeholder exists: True
+2026-03-15 22:09:20.699142: History count: 1
+2026-03-15 22:09:20.703143: Rendering 1 alerts
+2026-03-15 22:09:20.708144:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:20.961117: Placeholder exists: True
+2026-03-15 22:09:20.964220: History count: 1
+2026-03-15 22:09:20.970438: Rendering 1 alerts
+2026-03-15 22:09:20.972437:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:21.200796: Placeholder exists: True
+2026-03-15 22:09:21.203796: History count: 1
+2026-03-15 22:09:21.207804: Rendering 1 alerts
+2026-03-15 22:09:21.218063:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:21.484626: Placeholder exists: True
+2026-03-15 22:09:21.486858: History count: 1
+2026-03-15 22:09:21.490411: Rendering 1 alerts
+2026-03-15 22:09:21.494619:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:21.740959: Placeholder exists: True
+2026-03-15 22:09:21.743961: History count: 1
+2026-03-15 22:09:21.747961: Rendering 1 alerts
+2026-03-15 22:09:21.752411:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:21.964758: Placeholder exists: True
+2026-03-15 22:09:21.967759: History count: 1
+2026-03-15 22:09:21.971769: Rendering 1 alerts
+2026-03-15 22:09:21.975769:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:22.275697: Placeholder exists: True
+2026-03-15 22:09:22.278696: History count: 1
+2026-03-15 22:09:22.282240: Rendering 1 alerts
+2026-03-15 22:09:22.288767:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:22.535879: Placeholder exists: True
+2026-03-15 22:09:22.546979: History count: 1
+2026-03-15 22:09:22.555513: Rendering 1 alerts
+2026-03-15 22:09:22.559513:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:22.805979: Placeholder exists: True
+2026-03-15 22:09:22.810399: History count: 1
+2026-03-15 22:09:22.814413: Rendering 1 alerts
+2026-03-15 22:09:22.822999:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:23.064596: Placeholder exists: True
+2026-03-15 22:09:23.068683: History count: 1
+2026-03-15 22:09:23.072835: Rendering 1 alerts
+2026-03-15 22:09:23.077852:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:23.357708: Placeholder exists: True
+2026-03-15 22:09:23.359711: History count: 1
+2026-03-15 22:09:23.363866: Rendering 1 alerts
+2026-03-15 22:09:23.366317:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:23.450787: Frame 30, Tracks: 0
+2026-03-15 22:09:23.597372: Placeholder exists: True
+2026-03-15 22:09:23.602373: History count: 1
+2026-03-15 22:09:23.607376: Rendering 1 alerts
+2026-03-15 22:09:23.613427:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:23.877525: Placeholder exists: True
+2026-03-15 22:09:23.880924: History count: 1
+2026-03-15 22:09:23.885165: Rendering 1 alerts
+2026-03-15 22:09:23.892923:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:24.167953: Placeholder exists: True
+2026-03-15 22:09:24.172129: History count: 1
+2026-03-15 22:09:24.181974: Rendering 1 alerts
+2026-03-15 22:09:24.186782:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:24.449743: Placeholder exists: True
+2026-03-15 22:09:24.458067: History count: 1
+2026-03-15 22:09:24.475785: Rendering 1 alerts
+2026-03-15 22:09:24.485144:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:24.813495: Placeholder exists: True
+2026-03-15 22:09:24.816950: History count: 1
+2026-03-15 22:09:24.820951: Rendering 1 alerts
+2026-03-15 22:09:24.829590:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:25.070012: Placeholder exists: True
+2026-03-15 22:09:25.073364: History count: 1
+2026-03-15 22:09:25.081364: Rendering 1 alerts
+2026-03-15 22:09:25.086365:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:25.360718: Placeholder exists: True
+2026-03-15 22:09:25.362720: History count: 1
+2026-03-15 22:09:25.366719: Rendering 1 alerts
+2026-03-15 22:09:25.371222:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:25.622887: Placeholder exists: True
+2026-03-15 22:09:25.626399: History count: 1
+2026-03-15 22:09:25.631596: Rendering 1 alerts
+2026-03-15 22:09:25.639596:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:25.880650: Placeholder exists: True
+2026-03-15 22:09:25.883651: History count: 1
+2026-03-15 22:09:25.888649: Rendering 1 alerts
+2026-03-15 22:09:25.901084:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:26.136839: Placeholder exists: True
+2026-03-15 22:09:26.139840: History count: 1
+2026-03-15 22:09:26.143842: Rendering 1 alerts
+2026-03-15 22:09:26.149434:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:26.364471: Placeholder exists: True
+2026-03-15 22:09:26.367787: History count: 1
+2026-03-15 22:09:26.371788: Rendering 1 alerts
+2026-03-15 22:09:26.381368:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:26.614986: Placeholder exists: True
+2026-03-15 22:09:26.618994: History count: 1
+2026-03-15 22:09:26.623984: Rendering 1 alerts
+2026-03-15 22:09:26.629397:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:26.981036: Placeholder exists: True
+2026-03-15 22:09:26.984035: History count: 1
+2026-03-15 22:09:26.988035: Rendering 1 alerts
+2026-03-15 22:09:26.990554:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:27.250899: Placeholder exists: True
+2026-03-15 22:09:27.253900: History count: 1
+2026-03-15 22:09:27.266194: Rendering 1 alerts
+2026-03-15 22:09:27.270310:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:27.520863: Placeholder exists: True
+2026-03-15 22:09:27.524033: History count: 1
+2026-03-15 22:09:27.529290: Rendering 1 alerts
+2026-03-15 22:09:27.534520:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:27.789395: Processing 1 tracks
+2026-03-15 22:09:27.792413: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:27.795926: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:27.799925: Placeholder exists: True
+2026-03-15 22:09:27.806584: History count: 1
+2026-03-15 22:09:27.825594: Rendering 1 alerts
+2026-03-15 22:09:27.830597:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:28.061710: Processing 1 tracks
+2026-03-15 22:09:28.065093: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:28.068093: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:28.073576: Placeholder exists: True
+2026-03-15 22:09:28.077741: History count: 1
+2026-03-15 22:09:28.082745: Rendering 1 alerts
+2026-03-15 22:09:28.088152:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:28.341382: Processing 1 tracks
+2026-03-15 22:09:28.344741: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:28.347983: Placeholder exists: True
+2026-03-15 22:09:28.353591: History count: 1
+2026-03-15 22:09:28.359750: Rendering 1 alerts
+2026-03-15 22:09:28.365038:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:28.609737: Processing 1 tracks
+2026-03-15 22:09:28.612738: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:28.615738: Placeholder exists: True
+2026-03-15 22:09:28.623766: History count: 1
+2026-03-15 22:09:28.627733: Rendering 1 alerts
+2026-03-15 22:09:28.633155:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:28.890011: Processing 1 tracks
+2026-03-15 22:09:28.893540: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:28.895965: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:28.900084: Placeholder exists: True
+2026-03-15 22:09:28.906087: History count: 1
+2026-03-15 22:09:28.910087: Rendering 1 alerts
+2026-03-15 22:09:28.915089:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:29.179162: Processing 1 tracks
+2026-03-15 22:09:29.185651: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:29.193917: Placeholder exists: True
+2026-03-15 22:09:29.201913: History count: 1
+2026-03-15 22:09:29.206681: Rendering 1 alerts
+2026-03-15 22:09:29.212090:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:29.444568: Processing 1 tracks
+2026-03-15 22:09:29.448970: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:29.451972: Placeholder exists: True
+2026-03-15 22:09:29.455973: History count: 1
+2026-03-15 22:09:29.465513: Rendering 1 alerts
+2026-03-15 22:09:29.469364:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:29.711620: Processing 1 tracks
+2026-03-15 22:09:29.714618: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:29.717628: Placeholder exists: True
+2026-03-15 22:09:29.721619: History count: 1
+2026-03-15 22:09:29.730499: Rendering 1 alerts
+2026-03-15 22:09:29.735814:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:29.963423: Processing 1 tracks
+2026-03-15 22:09:29.966425: Track 1: Behavior = BehaviorType.NORMAL
+2026-03-15 22:09:29.969424: Placeholder exists: True
+2026-03-15 22:09:29.976738: History count: 1
+2026-03-15 22:09:29.984820: Rendering 1 alerts
+2026-03-15 22:09:29.988545:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:30.260972: Processing 1 tracks
+2026-03-15 22:09:30.267024: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:30.284468: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:30.289487: Placeholder exists: True
+2026-03-15 22:09:30.291484: History count: 1
+2026-03-15 22:09:30.296021: Rendering 1 alerts
+2026-03-15 22:09:30.300596:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:30.527792: Processing 1 tracks
+2026-03-15 22:09:30.532434: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:30.536017: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:30.543171: Placeholder exists: True
+2026-03-15 22:09:30.548910: History count: 1
+2026-03-15 22:09:30.553377: Rendering 1 alerts
+2026-03-15 22:09:30.556707:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:30.821511: Processing 1 tracks
+2026-03-15 22:09:30.825890: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:30.835669: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:30.855466: Placeholder exists: True
+2026-03-15 22:09:30.859839: History count: 1
+2026-03-15 22:09:30.867715: Rendering 1 alerts
+2026-03-15 22:09:30.872017:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:31.102888: Processing 1 tracks
+2026-03-15 22:09:31.108884: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:31.117884: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:31.120884: Placeholder exists: True
+2026-03-15 22:09:31.123883: History count: 1
+2026-03-15 22:09:31.133447: Rendering 1 alerts
+2026-03-15 22:09:31.135833:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:31.393466: Processing 1 tracks
+2026-03-15 22:09:31.397995: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:31.406410: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:31.412409: Placeholder exists: True
+2026-03-15 22:09:31.418830: History count: 1
+2026-03-15 22:09:31.425311: Rendering 1 alerts
+2026-03-15 22:09:31.430298:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:31.676809: Processing 1 tracks
+2026-03-15 22:09:31.679823: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:31.682836: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:31.688177: Placeholder exists: True
+2026-03-15 22:09:31.692699: History count: 1
+2026-03-15 22:09:31.698794: Rendering 1 alerts
+2026-03-15 22:09:31.701801:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:31.805316: Frame 60, Tracks: 1
+2026-03-15 22:09:31.962872: Processing 1 tracks
+2026-03-15 22:09:31.966274: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:31.969272: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:31.987430: Placeholder exists: True
+2026-03-15 22:09:31.997024: History count: 1
+2026-03-15 22:09:32.005117: Rendering 1 alerts
+2026-03-15 22:09:32.008322:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:32.248581: Processing 1 tracks
+2026-03-15 22:09:32.252220: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:32.255424: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:09:32.259860: Placeholder exists: True
+2026-03-15 22:09:32.268252: History count: 1
+2026-03-15 22:09:32.272602: Rendering 1 alerts
+2026-03-15 22:09:32.275735:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:09:32.526501: Processing 1 tracks
+2026-03-15 22:09:32.529835: Track 1: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:09:32.536054: EXCEPTION: 'charmap' codec can't encode character '\U0001f6a8' in position 28: character maps to <undefined>
+2026-03-15 22:10:00.961965: process_frames started
+2026-03-15 22:10:01.139062: Placeholder exists: True
+2026-03-15 22:10:01.143122: History count: 1
+2026-03-15 22:10:01.147451: Rendering 1 alerts
+2026-03-15 22:10:01.149452:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:01.357377: Placeholder exists: True
+2026-03-15 22:10:01.361378: History count: 1
+2026-03-15 22:10:01.364375: Rendering 1 alerts
+2026-03-15 22:10:01.367608:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:01.566086: Placeholder exists: True
+2026-03-15 22:10:01.568090: History count: 1
+2026-03-15 22:10:01.572092: Rendering 1 alerts
+2026-03-15 22:10:01.575088:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:01.813441: Placeholder exists: True
+2026-03-15 22:10:01.818170: History count: 1
+2026-03-15 22:10:01.821689: Rendering 1 alerts
+2026-03-15 22:10:01.826880:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:02.066323: Placeholder exists: True
+2026-03-15 22:10:02.068449: History count: 1
+2026-03-15 22:10:02.071451: Rendering 1 alerts
+2026-03-15 22:10:02.074797:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:02.323399: Placeholder exists: True
+2026-03-15 22:10:02.325741: History count: 1
+2026-03-15 22:10:02.330018: Rendering 1 alerts
+2026-03-15 22:10:02.335164:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:02.595710: Placeholder exists: True
+2026-03-15 22:10:02.600125: History count: 1
+2026-03-15 22:10:02.603612: Rendering 1 alerts
+2026-03-15 22:10:02.607246:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:02.968512: Placeholder exists: True
+2026-03-15 22:10:02.972509: History count: 1
+2026-03-15 22:10:02.975686: Rendering 1 alerts
+2026-03-15 22:10:02.978690:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:03.232772: Placeholder exists: True
+2026-03-15 22:10:03.236290: History count: 1
+2026-03-15 22:10:03.238351: Rendering 1 alerts
+2026-03-15 22:10:03.242910:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:03.508889: Placeholder exists: True
+2026-03-15 22:10:03.511891: History count: 1
+2026-03-15 22:10:03.514889: Rendering 1 alerts
+2026-03-15 22:10:03.518111:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:03.748160: Placeholder exists: True
+2026-03-15 22:10:03.749161: History count: 1
+2026-03-15 22:10:03.753838: Rendering 1 alerts
+2026-03-15 22:10:03.756833:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:03.970597: Placeholder exists: True
+2026-03-15 22:10:03.973638: History count: 1
+2026-03-15 22:10:03.976949: Rendering 1 alerts
+2026-03-15 22:10:03.980203:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:04.231719: Placeholder exists: True
+2026-03-15 22:10:04.233720: History count: 1
+2026-03-15 22:10:04.236720: Rendering 1 alerts
+2026-03-15 22:10:04.239357:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:04.437327: Placeholder exists: True
+2026-03-15 22:10:04.441335: History count: 1
+2026-03-15 22:10:04.447076: Rendering 1 alerts
+2026-03-15 22:10:04.450348:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:04.713305: Processing 1 tracks
+2026-03-15 22:10:04.716310: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:04.718703: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:04.721744: Placeholder exists: True
+2026-03-15 22:10:04.726749: History count: 1
+2026-03-15 22:10:04.730737: Rendering 1 alerts
+2026-03-15 22:10:04.732136:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:04.990455: Processing 1 tracks
+2026-03-15 22:10:04.992463: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:04.994463: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:04.997467: Placeholder exists: True
+2026-03-15 22:10:05.000522: History count: 1
+2026-03-15 22:10:05.004523: Rendering 1 alerts
+2026-03-15 22:10:05.007320:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:05.262646: Processing 1 tracks
+2026-03-15 22:10:05.265935: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:05.267977: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:05.271382: Placeholder exists: True
+2026-03-15 22:10:05.275635: History count: 1
+2026-03-15 22:10:05.279634: Rendering 1 alerts
+2026-03-15 22:10:05.281637:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:05.544188: Processing 1 tracks
+2026-03-15 22:10:05.547175: Track 2: Behavior = BehaviorType.NORMAL
+2026-03-15 22:10:05.549175: Placeholder exists: True
+2026-03-15 22:10:05.551177: History count: 1
+2026-03-15 22:10:05.554193: Rendering 1 alerts
+2026-03-15 22:10:05.556526:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:05.809858: Processing 1 tracks
+2026-03-15 22:10:05.813853: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:05.815855: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:05.818855: Placeholder exists: True
+2026-03-15 22:10:05.822868: History count: 1
+2026-03-15 22:10:05.827855: Rendering 1 alerts
+2026-03-15 22:10:05.830853:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:06.093944: Processing 1 tracks
+2026-03-15 22:10:06.096945: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:06.098944: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:06.101960: Placeholder exists: True
+2026-03-15 22:10:06.105300: History count: 1
+2026-03-15 22:10:06.109778: Rendering 1 alerts
+2026-03-15 22:10:06.112372:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:06.366981: Processing 1 tracks
+2026-03-15 22:10:06.370059: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:06.372057: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:06.375058: Placeholder exists: True
+2026-03-15 22:10:06.381092: History count: 1
+2026-03-15 22:10:06.384150: Rendering 1 alerts
+2026-03-15 22:10:06.386149:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:06.670292: Processing 1 tracks
+2026-03-15 22:10:06.673293: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:06.675453: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:06.678454: Placeholder exists: True
+2026-03-15 22:10:06.681454: History count: 1
+2026-03-15 22:10:06.686627: Rendering 1 alerts
+2026-03-15 22:10:06.688697:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:06.925062: Processing 1 tracks
+2026-03-15 22:10:06.928109: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:06.934318: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:06.942309: Placeholder exists: True
+2026-03-15 22:10:06.945377: History count: 1
+2026-03-15 22:10:06.949382: Rendering 1 alerts
+2026-03-15 22:10:06.951864:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:07.228058: Processing 1 tracks
+2026-03-15 22:10:07.231127: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:07.233132: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:07.235135: Placeholder exists: True
+2026-03-15 22:10:07.238126: History count: 1
+2026-03-15 22:10:07.244273: Rendering 1 alerts
+2026-03-15 22:10:07.246271:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:07.491894: Processing 1 tracks
+2026-03-15 22:10:07.502553: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:07.506553: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:07.511372: Placeholder exists: True
+2026-03-15 22:10:07.516699: History count: 1
+2026-03-15 22:10:07.520699: Rendering 1 alerts
+2026-03-15 22:10:07.522697:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:07.749259: Processing 1 tracks
+2026-03-15 22:10:07.752983: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:07.754983: No event for suspicious_movement (cooldown/persistence)
+2026-03-15 22:10:07.758991: Placeholder exists: True
+2026-03-15 22:10:07.760986: History count: 1
+2026-03-15 22:10:07.767266: Rendering 1 alerts
+2026-03-15 22:10:07.774755:   Rendering alert 0: TEST_ALERT
+2026-03-15 22:10:08.068315: Processing 1 tracks
+2026-03-15 22:10:08.072309: Track 2: Behavior = BehaviorType.SUSPICIOUS_MOVEMENT
+2026-03-15 22:10:08.077776: EXCEPTION: 'charmap' codec can't encode character '\U0001f6a8' in position 28: character maps to <undefined>
