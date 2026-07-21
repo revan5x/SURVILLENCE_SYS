@@ -1,145 +1,228 @@
-# Project Title
+# 🛡️ AI Surveillance System
 
-AI Surveillance System
+### Intelligent Video Analytics Platform for Real-Time Monitoring and Operational Insights
 
-## One-line tagline
+> An AI-powered surveillance platform that automates object detection, behavior analysis, anomaly detection, and real-time alerting through an interactive analytics dashboard.
 
-Real-time AI-powered video surveillance for anomaly detection, multi-object tracking, and actionable alerts.
+---
 
-## Hero Image / Dashboard Screenshot
+## 🎯 Business Problem
 
-![Dashboard Screenshot](docs/assets/dashboard_screenshot.png)
+Traditional surveillance systems depend heavily on manual monitoring, making them difficult to scale and prone to missed incidents, delayed responses, and operator fatigue. Organizations require an intelligent monitoring solution capable of automatically detecting suspicious activities, reducing false alarms, and providing actionable operational insights in real time.
 
-*(Replace with your actual dashboard or KPI screenshot at docs/assets/dashboard_screenshot.png)*
+---
 
-## Business Problem
+## 🎯 Project Objective
 
-Organizations need reliable, real-time monitoring to detect security incidents and anomalous behavior across camera feeds, but manual monitoring is costly, error-prone, and doesn’t scale. Existing systems struggle with false positives, poor multi-object tracking, and limited actionable analytics.
+Develop an end-to-end intelligent surveillance platform that:
 
-## Objective
+- Detects and tracks people in real time
+- Identifies anomalous behavior automatically
+- Reduces false positives using AI-based filtering
+- Generates real-time alerts for critical events
+- Provides operational insights through an interactive analytics dashboard
 
-Deliver an end-to-end, real-time surveillance platform that detects and tracks people/objects, filters noise, identifies anomalies in behavior, logs events, and notifies stakeholders via automated alerts and an interactive dashboard.
+---
 
-## Solution Overview
+## 💡 Solution Overview
 
-AI Surveillance System uses a lightweight YOLOv8 detection model plus ByteTrack and Kalman filtering for robust multi-object tracking. A behavior and anomaly analysis pipeline filters noise, classifies events, and logs structured events to an SQLite database. Alerts are sent via SMTP and operators monitor feeds and event history through a Streamlit dashboard.
+The AI Surveillance System combines computer vision, machine learning, and business intelligence into a single monitoring platform.
 
-## Key Features
+Using **YOLOv8** for object detection, **ByteTrack** and **Kalman Filtering** for multi-object tracking, and AI-based anomaly detection, the system continuously analyzes surveillance footage, identifies suspicious activities, records structured event data, and delivers automated email alerts. A **Streamlit dashboard** enables operators to monitor live feeds, review historical events, track operational KPIs, and support faster data-driven security decisions.
 
-- Real-time object and person detection (YOLOv8)
-- Multi-object tracking with ByteTrack and Kalman smoothing
-- Human behavior classification (standing, walking, running)
-- Anomaly detection (Isolation Forest / multivariate scoring)
-- Noise and false-positive filtering (confidence + motion validation)
-- Multi-zone ROI definitions with per-zone thresholds
-- Event logging with associated media (frames/clips)
-- Automated email notifications for critical events
-- Interactive Streamlit dashboard with live stream and timeline
+## ✨ Key Features
 
-## Business Metrics / KPIs
+- 🎥 Real-time person and object detection using YOLOv8
+- 👥 Multi-object tracking with ByteTrack and Kalman Filtering
+- 🚶 Human activity recognition and behavior analysis
+- 🚨 AI-powered anomaly detection for unusual events
+- 🎯 Zone-based monitoring with configurable alert thresholds
+- 📩 Automated email notifications for critical incidents
+- 🗄️ Event logging with timestamps and media snapshots
+- 📊 Interactive Streamlit dashboard for real-time monitoring and analytics
 
-- Detection latency: ~50–100 ms per frame (GPU)
-- Tracking stability: <5% ID switches (multi-object tracking)
-- Anomaly inference: real-time windowed scoring
-- Storage growth: ~1 MB per 1000 events (SQLite)
-- Dashboard update rate: sub-second for live monitoring
-- Alert delivery success rate (SMTP) — monitor via debug_alerts.log
+---
 
-## Dashboard / Visualizations
+## 📊 Business Impact & KPIs
 
-- Live video feed with annotated bounding boxes and track IDs
-- Event timeline and searchable history
-- Zone overlays and per-zone event counts
-- Anomaly heatmaps and trend charts (events over time)
-- System health panel: frame rate, queue length, memory usage
-- Event detail view with captured frames/clips and metadata
+The platform helps security teams reduce manual monitoring effort while improving incident response through automated detection and operational visibility.
 
-## Tech Stack
+| Metric | Value |
+|---------|-------|
+| Detection Latency | 50–100 ms/frame (GPU) |
+| Multi-Object Tracking | <5% ID Switches |
+| Real-Time Alerting | Automated Email Notifications |
+| Dashboard Refresh | Sub-second Updates |
+| Event Storage | ~1 MB per 1000 Events |
+| Operational Monitoring | Live KPIs & Historical Trends |
 
-- Language: Python 3.x
-- Detection: YOLOv8 (Ultralytics)
-- Tracking: ByteTrack + Kalman Filter
-- ML: Scikit-learn, NumPy
-- Video: OpenCV
-- Database: SQLite3
-- Dashboard: Streamlit
-- Notifications: SMTP (email)
+---
 
-## System Workflow
+## 📈 Dashboard & Analytics
 
-1. Capture frames (webcam / IP camera) via frame_manager.py
-2. Detect objects (detector.py using YOLOv8) and filter persons (person_filter.py)
-3. Track objects across frames with bytetrack.py and smooth trajectories using kalman_filter.py
-4. Buffer track history in track_buffer.py and apply behavior_analyzer.py for activity classification
-5. Run anomaly_engine.py to score and classify unusual patterns; apply noise_detector.py to suppress false positives
-6. Log structured events to surveillance_events.db via event_logger.py and store associated media via media_manager.py
-7. If thresholds exceeded, send notifications via email_notifier.py
-8. Visualize live feed, events, and controls in Streamlit dashboard (main_dashboard.py)
+The Streamlit dashboard enables operators to monitor system performance and security events through:
 
-## Project Structure
+- 📹 Live video feed with detected objects and tracking IDs
+- 📅 Event timeline with searchable incident history
+- 📍 Zone-wise event distribution and activity counts
+- 📊 Event trend visualizations and anomaly analytics
+- ⚙️ System health metrics (FPS, memory usage, processing status)
+- 🖼️ Incident details with captured images and metadata
 
-- Detection & Tracking: detector.py, person_filter.py, bytetrack.py, kalman_filter.py
-- Analysis Engines: anomaly_engine.py, behavior_analyzer.py, noise_detector.py
-- Pipeline & State: frame_manager.py, track_buffer.py, zone_manager.py, settings.py
-- Persistence & Media: event_logger.py, media_manager.py, surveillance_events.db
-- Notifications: email_notifier.py, email_config.json
-- UI: main_dashboard.py, visualization.py, dashboard.py (legacy)
-- Utilities & Setup: init_database.py, requirements.txt
+---
 
-## Installation
+## 🛠️ Tech Stack
 
-Prerequisites:
+| Category | Technologies |
+|----------|--------------|
+| **Programming** | Python |
+| **Computer Vision** | YOLOv8, OpenCV |
+| **Object Tracking** | ByteTrack, Kalman Filter |
+| **Machine Learning** | Scikit-learn, NumPy |
+| **Database** | SQLite |
+| **Dashboard** | Streamlit |
+| **Notifications** | SMTP Email |
+
+## ⚙️ System Workflow
+
+```text
+Video Input
+      │
+      ▼
+Object Detection (YOLOv8)
+      │
+      ▼
+Multi-Object Tracking (ByteTrack + Kalman Filter)
+      │
+      ▼
+Behavior Analysis & Anomaly Detection
+      │
+      ▼
+Event Logging (SQLite)
+      │
+      ├────────► Email Alerts
+      │
+      ▼
+Streamlit Dashboard & Analytics
+```
+
+### Workflow Overview
+
+1. Capture live video from a webcam or IP camera.
+2. Detect people and objects using **YOLOv8**.
+3. Track objects across frames with **ByteTrack** and **Kalman Filtering**.
+4. Analyze movement patterns and classify human activities.
+5. Detect anomalous events while reducing false positives.
+6. Store events, timestamps, and media in an SQLite database.
+7. Trigger automated email alerts for critical incidents.
+8. Display live monitoring, historical events, and operational metrics through a Streamlit dashboard.
+
+---
+
+## 📂 Project Structure
+
+```text
+AI_SURVEILLANCE_SYSTEM/
+│
+├── Detection & Tracking
+│   ├── detector.py
+│   ├── person_filter.py
+│   ├── bytetrack.py
+│   └── kalman_filter.py
+│
+├── Analysis Engine
+│   ├── anomaly_engine.py
+│   ├── behavior_analyzer.py
+│   └── noise_detector.py
+│
+├── Data & Event Management
+│   ├── event_logger.py
+│   ├── media_manager.py
+│   └── surveillance_events.db
+│
+├── Dashboard
+│   ├── main_dashboard.py
+│   └── visualization.py
+│
+├── Notifications
+│   └── email_notifier.py
+│
+└── Configuration
+    ├── settings.py
+    ├── zones.json
+    └── requirements.txt
+```
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+
 - Python 3.8+
-- (Optional) CUDA-capable GPU for acceleration
-- Webcam or IP camera feed
-- SMTP email account for notifications
+- Webcam or IP Camera
+- SMTP Email Account (for alerts)
+- CUDA-enabled GPU *(optional for faster inference)*
 
-Steps:
-1. git clone https://github.com/revan5x/SURVILLENCE_SYS.git
-2. cd SURVILLENCE_SYS
-3. pip install -r requirements.txt
-4. python init_database.py
-5. Update settings.py, email_config.json, and zones.json as required
+### Setup
 
-## Usage
+```bash
+git clone https://github.com/revan5x/SURVILLENCE_SYS.git
+cd SURVILLENCE_SYS
 
-- Run full system (engine + dashboard): `python run_full_system.py`
-- Run engine only: `python main.py`
-- Launch dashboard only: `streamlit run main_dashboard.py`
-- Test anomaly engine: `python test_anomaly.py`
-- Test email notifications: `python test_email.py`
+pip install -r requirements.txt
 
-## Project Outcomes
+python init_database.py
+```
 
-- Real-time detection and tracking pipeline capable of sub-100ms per-frame latency on GPU
-- Robust multi-object tracking with low ID-switch rates and historical track buffers for context
-- Operational anomaly detection and per-zone alerting with persistent event logs and media capture
-- Interactive dashboard enabling operators to monitor, review, and configure zones and alerts
+Update the following configuration files before running the project:
 
-## Future Improvements
+- `settings.py`
+- `email_config.json`
+- `zones.json`
 
-- Multi-GPU and distributed processing for scale
-- RTSP/multi-stream aggregation
-- Cloud database sync and REST API for integrations
-- Facial recognition and vehicle plate recognition modules (privacy/legal considerations required)
-- Mobile app for alert management and push notifications
-- Advanced crowd behavior modeling and loitering detection
+---
 
-## Repository Structure
+## ▶️ Running the Project
 
-- README.md
-- main.py — core surveillance engine
-- run_full_system.py — orchestrator (engine + dashboard)
-- main_dashboard.py — Streamlit UI entrypoint
-- detector.py, person_filter.py, bytetrack.py, kalman_filter.py
-- anomaly_engine.py, behavior_analyzer.py, noise_detector.py
-- frame_manager.py, track_buffer.py, zone_manager.py, event_logger.py, media_manager.py
-- email_notifier.py, email_config.json, zones.json, settings.py
-- init_database.py, requirements.txt
-- tests: test_anomaly.py, test_email.py
-- data: surveillance_events.db, yolov8n.pt
-- logs: debug_alerts.log
+| Task | Command |
+|------|---------|
+| Run complete system | `python run_full_system.py` |
+| Run detection engine | `python main.py` |
+| Launch dashboard | `streamlit run main_dashboard.py` |
+| Test anomaly detection | `python test_anomaly.py` |
+| Test email notifications | `python test_email.py` |
 
-## License
+## 📌 Project Outcomes
 
-Provided as-is for surveillance and security purposes. Ensure you comply with local laws and privacy regulations before deployment.
+- Developed an end-to-end AI surveillance platform capable of real-time object detection, tracking, and anomaly detection.
+- Automated security monitoring by reducing manual intervention through intelligent event detection and email alerts.
+- Built an interactive Streamlit dashboard to monitor live feeds, visualize operational metrics, and review historical events.
+- Designed a modular and scalable architecture that separates detection, tracking, analytics, event management, and visualization.
+
+---
+
+## 🚀 Future Enhancements
+
+- Support multiple camera streams (RTSP/IP Cameras)
+- Cloud-based event storage and analytics
+- REST API for third-party integrations
+- Mobile application for real-time alert management
+- Advanced crowd analytics and loitering detection
+- Edge deployment for low-latency inference
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feature requests are welcome.
+
+If you'd like to improve the project, feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is intended for educational and research purposes.
+
+Ensure compliance with applicable privacy laws and surveillance regulations before deploying in production environments.
